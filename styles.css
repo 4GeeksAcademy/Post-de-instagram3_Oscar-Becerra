@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.post-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.post-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-html5 {
+    font-size: 35px;
+    color: #333;
+}
+
+.post-info strong {
+    font-size: 16px;
+    line-height: 1.1;
+}
+
+.post-info span {
+    font-size: 14px;
+    color: #262626;
+}
+
+.post-image img {
+    width: 100%;
+    display: block;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px 10px 15px;
+    font-size: 24px;
+}
+
+.icons-left {
+    display: flex;
+    gap: 15px;
+}
+
+.pos-icons i {
+    cursor: pointer;
+}
+
+.pos-icons i:hover {
+    color: #8e8e8e;
+}
+
+.post-content {
+    padding: 0 15px 20px 15px;
+}
+
+.likes {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: justify;
+}
